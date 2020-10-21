@@ -3,45 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Meu Portifólio WEB</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + KR & display = swap" rel = "stylesheet">
-    <style>
-        body {
-            font-family: 'swap', sans-serif;
-            background-color: #D0C4DF;
-        }
-        .nome {
-            color: #22AED1;
-            font-size: 40px;
-            text-align: center;
-        }
-        .imagem {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 10%;
-        }
-        .indices {
-            color: #565857;
-            text-align: center;
-            font-weight: 600;
-            font-size: 2em;
-        }
-        p {
-            font-size: 26px;
-            text-align: center;
-            color: #FA7E61;
-            font-weight: 600;
-        }
-        li {
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            font-size: 20px;
-            font-weight: 600;
-        }
-       
-    </style>
 </head>
+
 <body>
     <h1 class="indices" >Índice do meu Portifólio</h1>
     <ul>
@@ -51,15 +16,15 @@
         <li><a href="#Paginas">Páginas favoritas</a></li>
     </ul>
 
-
-    <h1 class="nome">Amanda de Oliveira Souza</h1>
-    <img class="imagem" id="Foto" src="Images/foto.jpg" alt="Minha foto" width="400px">
-    <h3 class="indices">Essa sou eu</h3>
-    <p id="Descricao">Moro em Belo Horizonte - MG tenho 24 anos.<br>
-     Me formei em Gastronomia em 2018 mas no início de 2020 resolvi que era melhor para mim mudar de área,<br>
-     decidi então migrar para a área de Desenvolvimento.<br>
-     Hoje, estou no 2* período da faculdade de Desenvolvimento de Software e estudando na Trybe.</p>
-
+    <div class="informacoes">
+        <h1 class="nome">Amanda de Oliveira Souza</h1>
+        <img class="imagem" id="Foto" src="Images/foto.jpg" alt="Minha foto" width="400px">
+        <h3 class="indices">Essa sou eu</h3>
+        <p id="Descricao">Moro em Belo Horizonte - MG tenho 24 anos.<br>
+        Me formei em Gastronomia em 2018 mas no início de 2020 resolvi que era melhor para mim mudar de área,<br>
+        decidi então migrar para a área de Desenvolvimento.<br>
+        Hoje, estou no 2* período da faculdade de Desenvolvimento de Software e estudando na Trybe.</p>
+    </div>
     <h2 class="indices" id="Habilidade">Minhas habilidades:</h2>
     <ul>
         <li><em> Sei cozinhar;</em></li>
@@ -67,11 +32,13 @@
         <li><em>Trabalho bem em equipe;</em></li>
         <li><em>Me considero boa em jogos de tabuleiro.</em></li>
     </ul>
-    <h2 class="indices" id="Paginas">Páginas favoritas</h2>
-    <ul>
-        <li><a href="https://jovemnerd.com.br/">Jovem Nerd.</a></li>
-        <li><a href="https://www.betrybe.com/">Melhor Escola de Programação.</a></li>
-    </ul>
+    <div class="linksFavoritos">
+        <h2 class="indices" id="Paginas">Páginas favoritas</h2>
+        <ul>
+            <li><a href="https://jovemnerd.com.br/">Jovem Nerd.</a></li>
+            <li><a href="https://www.betrybe.com/">Melhor Escola de Programação.</a></li>
+        </ul>
+    </div>
 </body>
 </html>
 
